@@ -1,8 +1,7 @@
 import os
 import argparse
 parser = argparse.ArgumentParser(
-    description="Clean up directory and put files into according folders."
-)
+    description="Clean up directory and put files into according folders.")
 parser.add_argument(
     "--path",
     type=str,
